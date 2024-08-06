@@ -58,10 +58,10 @@ const AboutMe = () => {
                 Hi, I'm Alejandro Kong.
             </small>
             <p className="text-left text-white mt-5">
-                I'm a student from Mexico with a love for coding, I'm still defining my path but for the moment I'm a Fullstack developer. Right now I'm learning Node.js and Next.js. Besides that I'm learning and doing my research to learn about Software Development.
+                I&apos;m a student from Mexico with a love for coding, I&apos;m still defining my path but for the moment I&apos;m a Fullstack developer. Right now I&apos;m learning Node.js and Next.js. Besides that I&apos;m learning and doing my research to learn about Software Development.
                 <br />
                 <br />
-                Little recommendation while having my device interconnection class I developed an interest in cybersecurity so I started listening the <a href="https://darknetdiaries.com/" className="underline font-bold">Darknet Diaries</a> podcast if you're interest in all of this.   
+                Little recommendation while having my device interconnection class I developed an interest in cybersecurity so I started listening the <a href="https://darknetdiaries.com/" className="underline font-bold">Darknet Diaries</a> podcast if you&apos;re interest in all of this.   
             </p>
             <div className="mt-10 flex flex-row">
                 <div className="w-fit">
