@@ -5,7 +5,7 @@ import Card from "./ui/card"
 
 const Projects = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full" id='projects'>
         <p className="text-center text-white font-bold text-5xl mb-7">
             Recent Projects.
         </p>

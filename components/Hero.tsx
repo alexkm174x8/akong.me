@@ -19,7 +19,7 @@ const Hero = () => {
           <WavyBackground className="max-w-4xl mx-auto pb-40">
                 <div className="flex flex-col items-center justify-center h-[40rem] sm:text-xl">
                   <p className="text-white text-base mb-10 text-center">
-                      A student of Computer Science & Technology based in Mexico.
+                      A Computer Science & Technology student based in Mexico.
                   </p>
                 <TypewriterEffect words={words} />
               </div>
