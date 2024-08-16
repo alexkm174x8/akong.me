@@ -42,8 +42,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className='sticky flex top-[2vh] inset-x-0 mx-auto items-center justify-end lg:justify-center space-x-4 z-50 lg:w-fit'>
-            <div className={`relative flex flex-col items-end justify-center lg:flex-row gap-10 bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-3xl text-gray border-opacity-100 overflow-hidden lg:px-5 lg:py-2 ${openNav ? 'w-[30vh h-[95dvh]' : ''}`}>
+        <nav className='fixed flex top-[2vh] right-3 lg:right-0 inset-x-0 mx-auto items-center justify-end lg:justify-center space-x-4 z-50 lg:w-fit'>
+            <div className={`relative flex mr-3 lg:mr-0 flex-col items-end justify-center lg:flex-row gap-10 bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-3xl text-gray border-opacity-100 overflow-hidden lg:px-5 lg:py-2 ${openNav ? 'w-[30vh h-[95dvh]' : ''}`}>
                 <button className='relative flex mx-3 mt-3 mb-3 lg:hidden' onClick={toggleNav}>
                     <MenuSvg openNav={openNav}/>
                 </button>
