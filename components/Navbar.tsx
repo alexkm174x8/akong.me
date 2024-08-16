@@ -1,7 +1,6 @@
 'use client'
 import { nav } from '@/data';
 import React, { useEffect, useState } from 'react';
-import menu from '@/public/svg/menu'
 import MenuSvg from '@/public/svg/menu';
 import { enablePageScroll, disablePageScroll } from 'scroll-lock';
 
@@ -44,11 +43,11 @@ const Navbar = () => {
 
     return (
         <nav className='sticky flex top-[2vh] inset-x-0 mx-auto items-center justify-end lg:justify-center space-x-4 z-50 lg:w-fit'>
-            <div className={`relative flex flex-col items-end justify-center lg:flex-row gap-10 bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-3xl text-gray border border-black border-opacity-10 px-5 py-2 ${openNav ? 'w-[67dvh] h-[95dvh]' : ''}`}>
-                <button className='mb-auto flex lg:hidden' onClick={toggleNav}>
+            <div className={`relative flex flex-col items-end justify-center lg:flex-row gap-10 bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-3xl text-gray border-opacity-100 overflow-hidden lg:px-5 lg:py-2 ${openNav ? 'w-[30vh h-[95dvh]' : ''}`}>
+                <button className='relative flex mx-3 mt-3 mb-3 lg:hidden' onClick={toggleNav}>
                     <MenuSvg openNav={openNav}/>
                 </button>
-                <div className={`static lg:flex flex-col items-center justify-center m-auto lg:flex-row lg:gap-10 max-md:my-10 w-[100%] ${openNav ? 'flex gap-20 w-[100dvw] h-[100dvh]' : 'hidden'}`}>
+                <div className={`static lg:flex flex-col items-center justify-center lg:flex-row lg:gap-10 max-md:my-10 ${openNav ? 'flex gap-20 w-[90dvw] h-[100dvh]' : 'hidden'}`}>
                     {nav.map((item) => (
                         <a
                             key = {item.id}
@@ -57,7 +56,7 @@ const Navbar = () => {
                             className={`relative w-fit lg:block after:block after:content-[""] after:absolute after:h-[2px] after:bg-white after:rounded-full after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-white hover:duration-700`}
                         >
 
-                            {item.id === '2' ? <img src={item.img} alt="Logo" className='hidden lg:flex'/> : `${item.title}`}
+                            {item.id === '2' ? <img src={item.img} className='hidden lg:flex'/> : `${item.title}`}
                             {/* {item.img ? <img src={item.img} alt="Logo" className='sm:hidden' /> : `${item.title}`}  */}
                         </a>
                     ))}

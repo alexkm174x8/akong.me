@@ -13,10 +13,16 @@ const content = [
     {
       title: "Collaborative Planing",
       description:
-        "First of all I work together in real time with clients, and stakeholders. I collaborate on documents, share ideas, and make decisions quickly. All of this to get in my mind what you want to do, so we can complete the project of your dreams",
+        "First of all I work together in real time with clients, and stakeholders. I collaborate on documents, share ideas, and make decisions quickly. All of this to get in my mind what you want to do, so we can complete the project of your dreams.",
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--blue),var(--purple))] flex items-center justify-center text-white">
-          Collaborative Planing
+        <div className="h-full w-full  flex items-center justify-center text-white">
+            <Image
+            src="/collab.png"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+            />
         </div>
       ),
     },
@@ -24,13 +30,13 @@ const content = [
         title: "Iterative Development",
         description: "I follow an iterative development process, regularly sharing progress and gathering your feedback. This approach allows for continuous improvements and adjustments, ensuring the final product meets your needs perfectly.",
         content: (
-        <div className="h-full w-full  flex items-center justify-center text-white">
+        <div className="h-fit w-fit flex items-center justify-center text-white rounded-lg">
             <Image
-            src="/linear.webp"
+            src="/svg/code.svg"
             width={300}
             height={300}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
+            className="h-full w-full object-fill"
+            alt="Iterative Development"
             />
         </div>
         )
@@ -40,9 +46,15 @@ const content = [
         description:
           "Upon completion, I conduct thorough testing to guarantee quality and functionality. Additionally, I provide ongoing support and maintenance to address any issues and keep your project running smoothly.",
         content: (
-          <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-            Quality Assurance and Support
-          </div>
+            <div className="h-fit w-fit flex items-center justify-center text-white rounded-lg">
+                <Image
+                src="/quality.jpeg"
+                width={300}
+                height={300}
+                className="h-full w-full object-fill"
+                alt="Quality Assurance and Support"
+                />
+            </div>
         ),
       },
 ]
@@ -112,12 +124,12 @@ const AboutMe = () => {
                         <EvervaultCard text="Coming soon..." />
                 
                         <h2 className="text-white mt-4 text-sm font-light">
-                            Description of what I&apos;m doing atm...
+                            I am currently developing an iOS and Android app for the Ocoyucan Civil Association to promote biocultural knowledge to their visitors through an image search feature for local plants, along with other upcoming functions.
                         </h2>
                     </div>
                 </div>
                 
-                <div className="mt-10">
+                <div className="mt-16">
                     <h2 className="text-white font-semibold text-lg mb-5">My working method.</h2>
                     <StickyScroll content={content} />
                 </div>
