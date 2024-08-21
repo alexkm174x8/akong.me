@@ -16,7 +16,7 @@ const content = [
         "First of all I work together in real time with clients, and stakeholders. I collaborate on documents, share ideas, and make decisions quickly. All of this to get in my mind what you want to do, so we can complete the project of your dreams.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-            <Image
+            <img
             src="/collab.webp"
             width={300}
             height={300}
@@ -31,7 +31,7 @@ const content = [
         description: "I follow an iterative development process, regularly sharing progress and gathering your feedback. This approach allows for continuous improvements and adjustments, ensuring the final product meets your needs perfectly.",
         content: (
         <div className="h-fit w-fit flex items-center justify-center text-white rounded-lg">
-            <Image
+            <img
             src="/svg/code.svg"
             width={300}
             height={300}
@@ -47,7 +47,7 @@ const content = [
           "Upon completion, I conduct thorough testing to guarantee quality and functionality. Additionally, I provide ongoing support and maintenance to address any issues and keep your project running smoothly.",
         content: (
             <div className="h-fit w-fit flex items-center justify-center text-white rounded-lg">
-                <Image
+                <img
                 src="/quality.webp"
                 width={300}
                 height={300}
