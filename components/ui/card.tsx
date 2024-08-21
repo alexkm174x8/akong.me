@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
+import Image from "next/image";
     
 const Card = ({
     title,
@@ -32,7 +33,7 @@ const Card = ({
             {description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <img
+          <Image
             src={img}
             height="1000"
             width="1000"

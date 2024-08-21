@@ -17,11 +17,11 @@ const content = [
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
             <Image
-            src="/collab.png"
+            src="/collab.webp"
             width={300}
             height={300}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
+            className="h-full w-full object-fill"
+            alt="Collaborative planing"
             />
         </div>
       ),
@@ -48,7 +48,7 @@ const content = [
         content: (
             <div className="h-fit w-fit flex items-center justify-center text-white rounded-lg">
                 <Image
-                src="/quality.jpeg"
+                src="/quality.webp"
                 width={300}
                 height={300}
                 className="h-full w-full object-fill"

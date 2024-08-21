@@ -10,7 +10,7 @@ const Hero = () => {
           className: "text-white text-6xl"
         },
         {
-          text: "Portafolio.",
+          text: "Portfolio.",
           className: "text-white text-6xl"
         },
       ];
