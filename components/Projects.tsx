@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className="flex flex-col lg:flex-row lg:space-x-32 px-8 justify-center">
                     <Card title="Tentzo App" description="Developed an app that promotes biocultural knowledge with plant identification via camera, a local plant library, and regional activities." img="/oco.png" link="https://github.com/alexkm174x8/Tentzo-App"/>
                     <Card title="Topos FC Website" description="Worked with Topos FC association to redesign and implement the reservation and tournaments systems for the user and admins." img="/topos.png" link="https://github.com/alexkm174x8/topos-fc"/>
-                </div>             
+                </div>              
             </div>
         </div>
     </div>

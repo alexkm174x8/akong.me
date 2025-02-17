@@ -123,11 +123,13 @@ const AboutMe = () => {
                     
                         <EvervaultCard text="Coming soon..." />
                 
-                        <h2 className="text-white mt-4 text-sm font-light">
-                            I am currently developing an iOS and Android app for the Ocoyucan Civil Association to promote biocultural knowledge to their visitors through an image search feature for local plants, along with other upcoming functions.
+                        <h2 className="text-white mt-7 text-sm font-light">
+                            I am currently working with Tec de Monterrey to develop a system that enables over 3,000 students to apply for social service opportunities.
                         </h2>
                     </div>
                 </div>
+
+                <br />
                 
                 <div className="mt-16">
                     <h2 className="text-white font-semibold text-lg mb-5">My working method.</h2>
