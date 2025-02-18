@@ -2,12 +2,12 @@ export const nav =[
     {
         id: '0',
         title: 'Dashboard',
-        url: '#dashboard',
+        url: '/#dashboard',
     },
     {
         id: '1',
         title: 'About',
-        url: '#about',
+        url: '/#about',
     },
     {
         id: '2',
@@ -17,12 +17,12 @@ export const nav =[
     {
         id: '3',
         title: 'Projects',
-        url: '#projects',
+        url: '/projects',
     },
     {
         id: '4',
         title: 'Contact',
-        url: '#contact',
+        url: '/#contact',
         onlyMobile: true,
     }
 ]
