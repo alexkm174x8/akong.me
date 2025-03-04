@@ -131,10 +131,6 @@ const AboutMe = () => {
 
                 <br />
                 
-                <div className="mt-16">
-                    <h2 className="text-white font-semibold text-lg mb-5">My working method.</h2>
-                    <StickyScroll content={content} />
-                </div>
                 <div className="mt-20">
                     <h1 className='text-white font-bold text-4xl text-center'>
                         Want to get in contact with <span className='text-blue'>me</span> ? Click any of the following cards.
